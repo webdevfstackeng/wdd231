@@ -3,9 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD231</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet">
+  <meta name="description"
+      content="Course Home Page - assignment to demonstrate my prerequisite knowledge by applying HTML, CSS, and JavaScript to the design and development my course home page.">
+  <meta name="author" content="Kgotla Ephraim Boabilwe">
+  <title>WDD 231 Course Home Page</title>
+
+  <!-- Style Sheet Hero -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/dates.js" defer></script>
 </head>
 <body>
-  <h1>WDD231 - Kgotla Ephraim Boabilwe</h1>
+  <header>
+    <img src="images/x-diamond.svg" alt="site logo" width="16" height="16">
+    <span>Site - Kgotla Ephraim Boabilwe</span>
+   
+    <button id="ham-btn" class="hamburger"></button>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Chamber Project</a></li>
+      <li ><a href="#">Final Project</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Home</h1>
+    <section>
+      <h2>About Me</h2>
+    </section>
+    <section>
+      <h2>Student Photo</h2>
+    </section>
+    <section>
+      <h2>Web Certificate Courses</h2>
+    </section>
+  </main>
+  <footer>
+    <div class="social">
+      <a href="" target="_blank" <img src="images/linkedin.svg" alt="Linkedin" width="16" height="16">
+      <a href="" target="_blank" <img src="images/twitter-x.svg" alt="Twitter-x" width="16" height="16">
+      <a href="" target="_blank" <img src="images/facebook.svg" alt="Facebook" width="16" height="16">
+    </div>
+    <p>&COPY;<span id="short">2026</span> | Kgotla Ephraim Boabilwe | Gaborone, Botswana</p>
+    <p><span id="lastModified"></span></p>
+  </footer>
+  <script src="scripts/navigation.js"></script>
+   
 </body>
 </html>
