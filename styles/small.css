@@ -1,40 +1,65 @@
+/************* COLOR SCHEME **************/
+/* RoyalBlue #4169e1 */
+/* #cccccc */
+
+
+/************** SITE WIDE RESET **************/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
 }
 
-/***************** MOBILE VIEW ****************/
-
+/***************** PAGE LAYOUT MOBILE flex 1fr?****************/
 .page-layout {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
 }
 
+/***************** SITE SECTIONS ****************/
 header,
 nav,
-.home-title,
 .about,
 .photo,
 .courses,
 footer {
-    grid-column: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
 }
 
-header, footer {
+header,
+footer {
     width: 100%;
     background-color: #eee;
 }
 
+/**************** HEADER ****************/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 10px;
+    align-items: end;
+    border-bottom: 1px solid #eee;
+    column-gap: 8px;
+}
+
+header img{
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+/**************** HAMBURGER ****************/
 #ham-btn {
     display: block;
     cursor: pointer;
     background: none;
-
 }
 
-/***************** HAMBURGER ***********/
 .hamburger {
     background: none;
     border: none;
@@ -49,10 +74,9 @@ header, footer {
 
 .hamburger.show::after {
     content: "\00D7";
-    font-size: 2rem;
 }
 
-/***************** NAVIGATION ***********/
+/**************** NAVIGATION MOBILE ****************/
 .navigation {
     display: none;
 }
@@ -63,26 +87,55 @@ header, footer {
 
 .navigation ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .navigation a {
     display: block;
-    padding: 0.7rem 10px;
+    padding: .7rem 10px;
     color: #4169e1;
     text-decoration: none;
-    border-bottom: solid 1px #eee;
-}
-
-.navigation li.current {
-    background-color: #ddd;
+    border-bottom: 1px solid #eee;
 }
 
 .navigation a:hover {
     background-color: #ddd;
 }
 
+.navigation li.current {
+    background-color: #ddd;
+}
+
+/**************** MAIN ****************/
+h1 {
+    margin: 1rem 10px;
+    color: #4169e1;
+}
+
+.home-title {
+    text-align: start;
+}
+
+.about-me,
+.my-photo,
+.web-courses {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.about-me {
+    margin-bottom: 1rem;
+}
+
+.profile-photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+/**************** COURSE BUTTONS ****************/
 .course-buttons {
     display: grid;
     grid-template-columns: 1fr;
@@ -95,6 +148,51 @@ header, footer {
     padding: 1rem;
 }
 
- 
+/**************** COURSE CARDS ****************/
+.course-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
 
+.course-card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.course-card.completed {
+    background-color: #4169e1;
+    color: white;
+}
+
+/**************** COURSE TOTALS ****************/
+.course-totals {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+/**************** FOOTER ****************/
+footer {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.social a {
+    width: 44px;
+    height: 44px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+ 
 

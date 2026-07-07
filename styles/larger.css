@@ -1,21 +1,6 @@
-
-
-/************* COLOR SCHEME **************/
-/* RoyalBlue #4169e1 */
-/* #cccccc */
-
-/************** SITE WIDE FONT **************/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-}
-
-/******************* PAGE GRID LAYOUT *********************/
-@media only screen and (min-width: 38rem) 
-{ 
-
+/**************** LARGE SCREEN ****************/
+@media only screen and (min-width: 38rem) {
+    /**************** PAGE GRID ****************/
     .page-layout {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -23,15 +8,7 @@
         padding: 1rem;
     }
 
-        header,
-        main,
-        nav,
-        footer {
-            max-width: 900px;
-        }
-
-/******************* WIDTH ROWS *********************/
-
+    /**************** FULL WIDTH ROWS ****************/
     header,
     nav,
     .home-title,
@@ -40,235 +17,83 @@
         grid-column: 1 / 4;
     }
 
+    /**************** HEADER DESKTOP ****************/
     header {
-        display: flex;
+        display: grid;
+    }
+
+    /**************** HEADER DESKTOP ADDED ?****************/
+    header img {
+        display: grid;
+        grid-template-columns: 24px auto 44px;
+    }
+
+    header span {
+        font-size: 0.8rem;
+        padding-bottom: 10px;
     }
 
     #ham-btn {
         display: none;
     }
 
-    .navigation ul {
-        display: flex;
-        gap: 1rem;
+    /**************** NAVIGATION DESKTOP ****************/
+    .navigation {
+        display: block;
     }
 
-    nav {
-        text-decoration: none;
+    .navigation ul {
+
+        display: flex;
+        gap: 1rem;
     }
 
     .navigation.show {
         display: block;
     }
 
-/******************* ABOUT & PHOTO *********************/
-   
+    /**************** ABOUT AND PHOTO ****************/
     .about {
         grid-column: 1 / 3;
-        background-color: #eee;
-        color: #000;
     }
 
     .photo {
+
         grid-column: 3 / 4;
-        background-color: #eee;
-        color: #fff;
-        text-align: center;
-        padding: 1rem;
     }
 
-/******************* COURSE BUTTONS ***************/
-
+    /**************** COURSE BUTTONS ****************/
     .course-buttons {
-    
+
         display: flex;
-        padding-top: 0.5rem;
-        gap: 1rem;
     }
-    
+
     .course-buttons button {
         flex: 1;
     }
-} 
 
-/******************* COURSES TOTALS ***************/
-.course-totals {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 1rem;
+    /**************** COURSE CARDS ****************/
+    .course-buttons button {
+        flex: 1;
+    }
+
+    .course-buttons {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .course-buttons button {
+        flex: 1;
+    }
+
+    /**************** COURSE TOTALS ****************/
+        .course-container {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+    .course-totals {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
-.course-totals p {
-    grid-column: 2 / 3;
-    text-align: center;
-    font-weight: bold;
-}
-
-/************************* STYLING *********************/
-header,
-nav,
-.about,
-.photo,
-.courses,
-footer {
-    padding: 1rem;
-    border: 1px solid #ccc;
-}
-
-/**************** HEADER **********************/
-header {
-    display: grid;
-    grid-template-columns: 24px auto 44px;
-    padding: 5px 0 5px 10px;
-    align-items: end;
-    border-bottom: solid 1px #eee;
-    column-gap: 8px;
-    width: 100%;
-} 
-
-header img {
-    display: block;
-    width: 100%;
-    height: auto;
-    padding-bottom: 5px;
-}
-
-header span {
-    font-size: 0.8rem;
-    padding-bottom: 10px;
-}
-
-/******************* MAIN *******************/
-h1 {
-    width: 100%;
-    margin: 1rem 10px;
-    color: #4169e1;
-}
-
-.home-title {
-    text-align: start;
-    padding-left: 0;
-}
-
-.about-me {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-}
-
-.my-photo {
-    background-color: #000;
-    color: #fff;
-    text-align: center; 
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-top: auto;
-}
-
-.about-me {
-    margin-bottom: 1rem;
-}
-
-.profile-photo {
-    display: block;
-    width: 100%;
-    padding-top: 1rem;
-    height: auto;
-    margin: 0 auto;
-}
-
-.web-courses {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-}
-
-/******************* COURSES GRID *********************/
-.course-container {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.course-card {
-    padding: 1rem;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-
-.course-card.completed {
-    background: #4169e1;
-    color: #fff;
-}
-  
-/***************** FOOTER *******************/
-footer {
-    background-color: #eee;
-    /* padding: 1rem 10px; */
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
-    width: 100%;
-}
-
-.social {
-    display: flex;
-    justify-content: center;
-    column-gap: 8px;
-}
-
-.social a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border: #4169e1 1px;
-    border-radius: 22px;
-}
-
-.social img {
-    width: 22px;
-    height: 22px;
-}
-
-.social a:hover {
-    background-color: #a58b8b;
-}
-
-/***************** NAVIGATION ***********/
-.navigation {
-    display: none;
-}
-
-.navigation.show {
-    display: block;
-} 
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} 
-
-.navigation a {
-    display: block;
-    padding: 0.7rem 10px;
-    color: #4169e1;
-    text-decoration: none;
-    border-bottom: solid 1px #eee;
-}
-
-.navigation li.current {
-    background-color: #ddd;
-}
-
-.navigation a:hover {
-    background-color: #ddd;
-}
-
-h1 {
-    margin: 1rem 10px;
-    color: #4169e1;
-}
+ 
