@@ -98,11 +98,11 @@ header img{
 }
 
 .navigation a:hover {
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 .navigation li.current {
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 /**************** MAIN ****************/
