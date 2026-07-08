@@ -1,7 +1,8 @@
 /************* COLOR SCHEME **************/
 /* RoyalBlue #4169e1 */
 /* #cccccc */
-
+/* #eeeeee */
+/* #000000 */
 
 /************** SITE WIDE RESET **************/
 * {
@@ -39,7 +40,7 @@ footer {
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
-    padding: 5px 10px;
+    padding: 15px 10px;
     align-items: end;
     border-bottom: 1px solid #eee;
     column-gap: 8px;
@@ -79,6 +80,7 @@ header img{
 /**************** NAVIGATION MOBILE ****************/
 .navigation {
     display: none;
+    background-color: #000;
 }
 
 .navigation.show {
@@ -91,18 +93,18 @@ header img{
 
 .navigation a {
     display: block;
-    padding: .7rem 10px;
-    color: #4169e1;
+    padding: .4rem 10px;
+    color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
 }
 
 .navigation a:hover {
-    background-color: #eee;
+    background-color: #4169e1;
 }
 
 .navigation li.current {
-    background-color: #eee;
+    background-color: #000;
 }
 
 /**************** MAIN ****************/
