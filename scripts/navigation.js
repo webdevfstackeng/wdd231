@@ -136,9 +136,17 @@ function displayCourses(courseList) {
 }
   
 /***************** Exploring the Courses ***********************/
-  document.querySelector('#all').addEventListener('click', () => {
+  /*document.querySelector('#all').addEventListener('click', () => {
     displayCourses(courses);
-  });
+  }); */
+  const allButton = document.querySelector('#all');
+
+  if (allButton) {
+    allButton.addEventListener('click', () => {
+      displayCourses(courses);
+    });
+  }
+
   
 document.querySelector('#wdd').addEventListener('click', () => {
 
