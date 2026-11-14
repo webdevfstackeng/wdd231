@@ -1,0 +1,85 @@
+{
+    "members": [
+        {
+            "name": "Green Valley Farms",
+            "address": "Plot No. 7639 Tlokeng",
+            "whatsapp_number": "00267-7654-3210",
+            "email": "info@greenvalleyfarm.co.bw",
+            "membership_level": "Gold",
+            "image": "images/atb.webp",
+            "websiteurl": "https://greenvalleyfarm.co.bw"
+        },
+        {
+            "name": "Botswana Beef Traders",
+            "address": "Plot No. 639 Gaborone",
+            "whatsapp_number": "00267-8654-3260",
+            "email": "enquiry@botswanabeeftraders.co.bw",
+            "membership_level": "Silver",
+            "image": "images/bbt.webp",
+            "websiteurl": "https://botswanabeeftraders.co.bw"
+        },
+        {
+            "name": "Earth Bounty",
+            "address": "Plot No. 4508 Rakhuna",
+            "whatsapp_number": "00267-7225-6993",
+            "email": "info@bearthbounty.co.bw",
+            "membership_level": "Gold",
+            "image": "images/eb.webp",
+            "websiteurl": "https://earthbounty.co.bw"
+        },
+        {
+            "name": "Agri Transport Botswana",
+            "address": "Plot No. 7639 Gaborone",
+            "whatsapp_number": "00267-7154-3569",
+            "email": "info@aritransportbotswana.co.bw",
+            "membership_level": "Gold",
+            "image": "images/gvf.webp",
+            "websiteurl": "https://agritransportbotswana.co.bw"
+        },
+        {
+            "name": "Mmokolodi Farm",
+            "address": "Plot No. 65939 Mmokolodi",
+            "whatsapp_number": "00267-7454-3261",
+            "email": "enquiries@mmokolodifarm.co.bw",
+            "membership_level": "Gold",
+            "image": "images/mf.webp",
+            "websiteurl": "https://mmokolodifarm.co.bw"
+        },
+        {
+            "name": "Fresh Harvest Co-op",
+            "address": "Plot No. 639 Gaborone",
+            "whatsapp_number": "00267-7554-3260",
+            "email": "enquiries@freshharvestcoop.co.bw",
+            "membership_level": "Silver",
+            "image": "images/fhc.webp",
+            "websiteurl": "https://freshharvestcoop.co.bw"
+        },
+        {
+            "name": "Linda Fresh Produce",
+            "address": "Plot No. 459 Rakhuna",
+            "whatsapp_number": "00267-7754-3160",
+            "email": "info@lindafreshproduce.co.bw",
+            "membership_level": "Silver",
+            "image": "images/lfp.webp",
+            "websiteurl": "https://lindafreshproduce.co.bw"
+        },
+        {
+            "name": "Ghantsi Farms",
+            "address": "Plot No. 138 Ghantsi",
+            "whatsapp_number": "00267-7554-3260",
+            "email": "enquiries@ghantsifarms.co.bw",
+            "membership_level": "Gold",
+            "image": "images/gf.webp",
+            "websiteurl": "https://ghantsifarms.co.bw.co.bw"
+        },
+        {
+            "name": "Orange Money Agent",
+            "address": "Plot No. 3639 Gaborone",
+            "whatsapp_number": "00267-7200-7755",
+            "email": "info@orangemoneyagent.co.bw",
+            "membership_level": "Gold",
+            "image": "images/om.webp",
+            "websiteurl": "https://orangemoneyagent.co.bw"
+        }
+    ]   
+}

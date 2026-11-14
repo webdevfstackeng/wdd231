@@ -1,0 +1,91 @@
+/************* COLOR SCHEME **************/
+/* RoyalBlue #4169e1 */
+/* #cccccc */
+
+/**************** LARGE SCREEN ****************/
+@media only screen and (min-width: 38rem) {
+
+    /**************** PAGE GRID ****************/
+    .page-layout {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+    }
+    header ul {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    /**************** FULL WIDTH ROWS ****************/
+    header,
+    nav,
+    .home-title,
+    footer {
+        grid-column: 1 / 4;
+    }
+
+    /**************** HEADER DESKTOP ****************/
+    header {
+        display: grid;
+    }
+
+    /**************** HEADER DESKTOP ****************/
+    header img {
+        display: grid;
+        grid-template-columns: 24px auto 44px;
+    }
+
+    header span {
+        font-size: 0.8rem;
+        padding-bottom: 10px;
+    }
+
+    #ham-btn {
+        display: none;
+    }
+
+    /**************** NAVIGATION DESKTOP ****************/
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+
+        display: flex;
+        gap: 1rem;
+    }
+
+    .navigation.show {
+        display: block;
+    }
+
+    /**************** COURSE BUTTONS ****************/
+    .course-buttons {
+        display: flex;
+    }
+
+    .cards-buttons button {
+        flex: 1;
+    }
+
+    /**************** COURSE CARDS ****************/
+    .cards-buttons button {
+        flex: 1;
+    }
+
+    .cards-buttons {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .cards-buttons button {
+        flex: 1;
+    }
+
+    /**************** COURSE CONTAINERS & TOTALS ****************/
+    .cards-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
