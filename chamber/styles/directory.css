@@ -44,6 +44,13 @@ h1 {
             height: auto;
             margin-bottom: 0.75rem;
         }
+
+        #cards.grid section img {
+            display: block;
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+        }
        
         h3 {
             font-size: 1.2rem;

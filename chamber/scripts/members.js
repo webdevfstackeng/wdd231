@@ -29,6 +29,13 @@ function displayMembers(members) {
     const section = document.createElement('section');
 
     section.innerHTML = `
+    <img 
+    src="${member.image}" 
+    alt="${member.name} logo" 
+    width="150" 
+    height="150" 
+    loading="lazy"
+    onerror="this.src='images/placeholder.webp'; this.onerror=null;">  
       <img src="${member.image}" alt="${member.name} logo" loading="lazy">
       <h3>${member.name}</h3>
       <p>${member.address}</p>
