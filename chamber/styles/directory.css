@@ -75,6 +75,12 @@ h1 {
             display: none;
         }
 
+        img.responsive-banner {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+
         h3 {
             font-size: 1rem;
         }
