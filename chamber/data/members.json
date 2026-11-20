@@ -6,7 +6,7 @@
             "whatsapp_number": "00267-7654-3210",
             "email": "info@greenvalleyfarm.co.bw",
             "membership_level": "Gold",
-            "image": "images/atb.webp",
+            "image": "images/gvf.webp",
             "websiteurl": "https://greenvalleyfarm.co.bw"
         },
         {
@@ -22,7 +22,7 @@
             "name": "Earth Bounty",
             "address": "Plot No. 4508 Rakhuna",
             "whatsapp_number": "00267-7225-6993",
-            "email": "info@bearthbounty.co.bw",
+            "email": "info@earthbounty.co.bw",
             "membership_level": "Gold",
             "image": "images/eb.webp",
             "websiteurl": "https://earthbounty.co.bw"
@@ -33,7 +33,7 @@
             "whatsapp_number": "00267-7154-3569",
             "email": "info@aritransportbotswana.co.bw",
             "membership_level": "Gold",
-            "image": "images/gvf.webp",
+            "image": "images/atb.webp",
             "websiteurl": "https://agritransportbotswana.co.bw"
         },
         {
@@ -70,7 +70,7 @@
             "email": "enquiries@ghantsifarms.co.bw",
             "membership_level": "Gold",
             "image": "images/gf.webp",
-            "websiteurl": "https://ghantsifarms.co.bw.co.bw"
+            "websiteurl": "https://ghantsifarms.co.bw"
         },
         {
             "name": "Orange Money Agent",
