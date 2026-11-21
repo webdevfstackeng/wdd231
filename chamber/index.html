@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Chamber Home Page">
+    <meta name="description"
+        content="Chamber of Commerce - Connecting agricultural producers, traders and digital service providers in greater Gaborone.">
+    <meta name="author" content="Kgotla Ephraim Boabilwe">
+
+    <title>GADTC | Home</title>
+    <!--link rel="icon" href="/favicon.ico" sizes="any"-->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:title" content="Gaborone AgriCommerce & Digital Trade Chamber (GADTC)">
+    <meta property="og:description" content="Connecting agriculture, commerce and digital trade in Gaborone.">
+    <meta property="og:image" content="./chamber/images/gadtc-social-image.jpg">
+    <meta property="og:url" content="https://github.com/webdevfstackeng/wdd231/chamber/">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+     
+
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/x-diamond.svg" alt="site logo" width="32" height="32">
+        <h1>GADTC</h1>
+        <button id="ham-btn" class="hamburger" aria-label="Navigation humburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html" aria-label="Home">Home</a></li>
+                <li><a href="discover.html" aria-label="Discover">Discover</a></li>
+                <li><a href="directory.html" aria-label="Directory">Directory</a></li>
+                <li><a href="join.html" aria-label="Join">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!------------------------------------- HERO ---------------------------------------->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Connect with Gaborone AgriCommerce & Digital Traders Chamber (GADTC)</h2>
+            <p>
+                Growing Business. Connecting Opportunities.
+            </p>
+            <a href="join.html" class="btn">Become a Member</a>
+        </div>
+    </section>
+    <!-------------------------------------- MAIN ------------------------------------->
+    <main>
+        <section id="about">
+            <div id="site-purpose">
+                <h2>Site Purpose</h2>
+            </div>
+        
+            <p>
+                GADTC is a local business association that connects agricultural producers, meat suppliers, transport providers and retailers through digital payment services.
+            </p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+        
+            <div class="cards">
+                <div class="events card">
+                    <h3>Current Events and Announcements</h3>
+                    <p>
+                        Upcoming Gaborone Agri-Tech & Mobile Payment Expo — Check back soon for registration details. 
+                    </p>
+                </div>
+        
+                <div class="weather card">
+                    <h3>Gaborone Weather</h3>
+                    <p>Temperature: <strong><span id="current-temp"></span></strong></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption id="weather-desc"></figcaption>
+                    </figure>
+                    <h3>3-Day Forecast</h3>
+                    <div id="forecast-container"></div>
+                </div>
+
+                <div class="spotlights">
+                    <h3>Business Spotlights</h3>
+                    <div id="spotlight-container" class="spotlight-grid"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&COPY;<span id="short">2026</span> | Kgotla Ephraim Boabilwe | WDD 231</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
