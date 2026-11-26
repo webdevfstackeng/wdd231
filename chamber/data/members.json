@@ -7,6 +7,8 @@
             "email": "info@greenvalleyfarm.co.bw",
             "membership_level": "Gold",
             "image": "images/gvf.webp",
+            "width": 6454,
+            "height": 4302,
             "websiteurl": "https://greenvalleyfarm.co.bw"
         },
         {
@@ -16,6 +18,8 @@
             "email": "enquiry@botswanabeeftraders.co.bw",
             "membership_level": "Silver",
             "image": "images/bbt.webp",
+            "width": 3000,
+            "height": 2000,
             "websiteurl": "https://botswanabeeftraders.co.bw"
         },
         {
@@ -25,6 +29,8 @@
             "email": "info@earthbounty.co.bw",
             "membership_level": "Gold",
             "image": "images/eb.webp",
+            "width": 4240,
+            "height": 2832,
             "websiteurl": "https://earthbounty.co.bw"
         },
         {
@@ -34,6 +40,8 @@
             "email": "info@aritransportbotswana.co.bw",
             "membership_level": "Gold",
             "image": "images/atb.webp",
+            "width": 4608,
+            "height": 3072,
             "websiteurl": "https://agritransportbotswana.co.bw"
         },
         {
@@ -43,6 +51,8 @@
             "email": "enquiries@mmokolodifarm.co.bw",
             "membership_level": "Gold",
             "image": "images/mf.webp",
+            "width": 4936,
+            "height": 3290,
             "websiteurl": "https://mmokolodifarm.co.bw"
         },
         {
@@ -52,6 +62,8 @@
             "email": "enquiries@freshharvestcoop.co.bw",
             "membership_level": "Silver",
             "image": "images/fhc.webp",
+            "width": 4386,
+            "height": 2920,
             "websiteurl": "https://freshharvestcoop.co.bw"
         },
         {
@@ -61,6 +73,8 @@
             "email": "info@lindafreshproduce.co.bw",
             "membership_level": "Silver",
             "image": "images/lfp.webp",
+            "width": 3500,
+            "height": 2491,
             "websiteurl": "https://lindafreshproduce.co.bw"
         },
         {
@@ -70,6 +84,8 @@
             "email": "enquiries@ghantsifarms.co.bw",
             "membership_level": "Gold",
             "image": "images/gf.webp",
+            "width": 5184,
+            "height": 3456,
             "websiteurl": "https://ghantsifarms.co.bw"
         },
         {
@@ -79,6 +95,8 @@
             "email": "info@orangemoneyagent.co.bw",
             "membership_level": "Gold",
             "image": "images/om.webp",
+            "width": 3000,
+            "height": 2000,
             "websiteurl": "https://orangemoneyagent.co.bw"
         }
     ]   

@@ -29,7 +29,7 @@ function displayMembers(members) {
     const section = document.createElement('section');
 
     section.innerHTML = `
-      <img src="${member.image}" alt="${member.name} logo" loading="lazy">
+      <img src="${member.image}" alt="${member.name} logo" width="${member.width || 150}" height="${member.height || 150}" loading="lazy">
       <h3>${member.name}</h3>
       <p>${member.address}</p>
       <p><a href="${member.websiteurl}" target="_blank" rel="noopener">Website</a></p>

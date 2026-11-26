@@ -11,8 +11,8 @@ const myapiKey = "938a762003d285fe4bb5410bfcfd18f4";
 const lat = "-24.66";
 const lon = "25.90";
 
-const currentUrl = `https://openweathermap.org/data/2.5/weather?${lat}&lon=${lon}&appid=${myapiKey}&units=metric`;
-const forecastUrl = `https://openweathermap.org/data/2.5/weather?${lat}&lon=${lon}&appid=${myapiKey}&units=metric`;
+const currentUrl = `https://openweathermap.org{lat}&lon=${lon}&appid=${myapiKey}&units=metric`;
+const forecastUrl = `https://openweathermap.org{lat}&lon=${lon}&appid=${myapiKey}&units=metric`;
 
 async function apiFetch() {
   try {
@@ -78,7 +78,7 @@ function displayForecast(data) {
   });
 }
 
-// apiFetch();
+//apiFetch();
 
 
 // MEMBER SPOTLIGHTS (JSON Data)
@@ -131,7 +131,7 @@ function displaySpotlights(members) {
         <h3>${member.name}</h3>
         <span class="badge">${member.membership_Level} Member</span>
       </div>
-      <img src="${member.image}" alt="${member.name} logo" loading="lazy">
+      <img src="${member.image}" alt="${member.name} logo" width="${member.width || 150}" height="${member.height || 150}" loading="lazy">
       <div class="spotlight-info">
         <p><strong>Address:</strong> ${member.address}</p>
         <p><strong>Phone:</strong> <a href="tel:${member.whatsapp_number}">${member.whatsapp_number}</a></p>
@@ -145,5 +145,5 @@ function displaySpotlights(members) {
 
 // Execute the processes
 apiFetch();
-fetchForecast();
+//fetchForecast();
 loadSpotlights();

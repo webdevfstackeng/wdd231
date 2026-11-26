@@ -24,9 +24,10 @@
     <meta property="og:url" content="https://github.com/webdevfstackeng/wdd231/chamber/">
     <meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="styles/normalize.css">
+    <!--link rel="stylesheet" href="styles/normalize.css"-->
     <link rel="stylesheet" href="styles/chamber.css">
-     
+    <!--link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css"-->
 
     <script src="scripts/chamber.js" defer></script>
     <script src="scripts/dates.js" defer></script>
@@ -35,8 +36,10 @@
 
 <body>
     <header>
-        <img src="images/x-diamond.svg" alt="site logo" width="32" height="32">
-        <h1>GADTC</h1>
+        <div class="brand">
+            <img src="images/x-diamond.svg" alt="GADTC site logo" width="32" height="32">
+            <span class="site-title">GADTC</span>
+        </div>
         <button id="ham-btn" class="hamburger" aria-label="Navigation humburger"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
@@ -50,7 +53,7 @@
     <!------------------------------------- HERO ---------------------------------------->
     <section class="hero">
         <div class="hero-content">
-            <h2>Connect with Gaborone AgriCommerce & Digital Traders Chamber (GADTC)</h2>
+            <h1>Connect with Gaborone AgriCommerce & Digital Traders Chamber (GADTC)</h1>
             <p>
                 Growing Business. Connecting Opportunities.
             </p>
@@ -59,6 +62,16 @@
     </section>
     <!-------------------------------------- MAIN ------------------------------------->
     <main>
+        <section class="weather-card">
+            <h2>Current Weather</h2>
+            <p>Temperature: <strong><span id="current-temp"></span></strong></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+        
+            <h2>3-Day Forecast</h2>
+            <div id="forecast-container"></div>
         <section id="about">
             <div id="site-purpose">
                 <h2>Site Purpose</h2>
@@ -73,28 +86,28 @@
         
             <div class="cards">
                 <div class="events card">
-                    <h3>Current Events and Announcements</h3>
+                    <h2>Current Events and Announcements</h2>
                     <p>
                         Upcoming Gaborone Agri-Tech & Mobile Payment Expo — Check back soon for registration details. 
                     </p>
                 </div>
         
-                <div class="weather card">
-                    <h3>Gaborone Weather</h3>
+                <div class="weather-card">
+                    <h2>Gaborone Current Weather</h2>
                     <p>Temperature: <strong><span id="current-temp"></span></strong></p>
                     <figure>
                         <img id="weather-icon" src="" alt="">
-                        <figcaption id="weather-desc"></figcaption>
+                        <figcaption></figcaption>
                     </figure>
-                    <h3>3-Day Forecast</h3>
+                    <h2>3-Day Forecast</h2>
                     <div id="forecast-container"></div>
                 </div>
 
                 <div class="spotlights">
-                    <h3>Business Spotlights</h3>
+                    <h2>Business Spotlights</h2>
                     <div id="spotlight-container" class="spotlight-grid"></div>
                 </div>
-            </div>
+            </div-->
         </section>
     </main>
     <footer>

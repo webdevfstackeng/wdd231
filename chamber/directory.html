@@ -23,10 +23,8 @@
         <meta property="og:url" content="https://github.com/webdevfstackeng/wdd231/chamber/">
         <meta property="og:type" content="website">
         
-        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/chamber.css">
         <link rel="stylesheet" href="styles/directory.css">
-        <link rel="stylesheet" href="styles/small.css">
-        <link rel="stylesheet" href="styles/larger.css">
 
         <script src="scripts/members.js" defer></script>
         <script src="scripts/dates.js" defer></script>
@@ -34,15 +32,17 @@
     </head>
     <body>
         <header>
-            <img src="images/x-diamond.svg" alt="site logo" width="32" height="32">
-            <span>GADTC Directory</span>
+            <div class="brand">
+                <img src="images/x-diamond.svg" alt="GADTC site logo" width="36" height="36">
+                <span class="site-title">GADTC | Directory</span>
+            </div>
             <button id="ham-btn" class="hamburger" aria-label="Navigation humburger"></button>
             <nav id="nav-bar" class="navigation">
                 <ul>
-                    <li><a href="#" aria-label="Home">Home</a></li>
-                    <li><a href="" aria-label="Directory">Directory</a></li>
-                    <li><a href="#" aria-label="Discover">Discover</a></li>
-                    <li><a href="#" aria-label="Join">Join</a></li>
+                    <li><a href="index.html" aria-label="Home">Home</a></li>
+                    <li><a href="discover.html" aria-label="Discover">Discover</a></li>
+                    <li><a href="directory.html" aria-label="Directory">Directory</a></li>
+                    <li><a href="join.html" aria-label="Join">Join</a></li>
                 </ul>
             </nav>
         </header>
@@ -52,8 +52,8 @@
                 <button id="grid" class="active">Grid</button>
                 <button id="list">List</button>
             </div>
-            <!-- Add class="grid" so it starts in Card View -->
-            <div id="cards" class="grid"></div>
+            <!-- Adding class="grid" to start it in Card View -->
+            <div class="grid" id="cards" ></div>
         </main>
         <footer>
             <p>&COPY;<span id="short">2026</span> | Kgotla Ephraim Boabilwe | WDD 231</p>
@@ -63,4 +63,4 @@
 </html>
 
 
-<!--fb3f1194a1954bcd02c6f8fc3f672458-->
+ 

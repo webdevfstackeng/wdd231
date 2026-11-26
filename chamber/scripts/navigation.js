@@ -135,31 +135,5 @@ function displayCourses(courseList) {
   completedCredits.textContent = completedTotal;
 }
   
-/***************** Exploring the Courses ***********************/
-  document.querySelector('#all').addEventListener('click', () => {
-    displayCourses(courses);
-  });
-  
-document.querySelector('#wdd').addEventListener('click', () => {
-
-    const wddCourses = courses.filter(course =>
-      course.subject === 'WDD'
-    );
-  
-    displayCourses(wddCourses);
-  });
-
-document.querySelector('#cse').addEventListener('click', () => {
-
-    const cseCourses = courses.filter(course =>
-      course.subject === 'CSE'
-    );
-  
-    displayCourses(cseCourses);
-  });
-
-  displayCourses(courses);
-
-
-
-
+ 
+   
