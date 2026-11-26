@@ -14,12 +14,12 @@
     padding: 0.5rem 1rem;
     margin: 0 0.25rem;
     cursor: pointer;
-    border: 1px solid #C96F3B;
+    border: 1px solid #613216;
     background-color: #fff;
 }
 
 .menu button.active {
-    background-color: #C96F3B;
+    background-color: #613216;
     color: #fff;
 }
 
