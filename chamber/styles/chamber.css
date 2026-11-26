@@ -153,7 +153,7 @@ main {
 
 h2 {
     font-size: 1.4rem;
-    color: var(--primary-color);
+    color: var(--text-color);
     margin-bottom: 15px;
     text-align: center;
 }

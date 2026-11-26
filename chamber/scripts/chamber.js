@@ -78,9 +78,6 @@ function displayForecast(data) {
   });
 }
 
-//apiFetch();
-
-
 // MEMBER SPOTLIGHTS (JSON Data)
 
 const membersURL = 'data/members.json'; // Update path to your JSON file
@@ -145,5 +142,4 @@ function displaySpotlights(members) {
 
 // Execute the processes
 apiFetch();
-//fetchForecast();
 loadSpotlights();
