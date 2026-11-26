@@ -123,7 +123,7 @@ card.list section {
 
 #cards.list section h2 {
     font-size: 1rem;
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 #cards.list section a {

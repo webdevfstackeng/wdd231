@@ -100,7 +100,7 @@ header img {
 
 /********************* HERO **********************/
 .hero {
-    background-image: linear-gradient(rgba(244, 230, 212, 0.85), rgba(244, 230, 212, 0.85)), url("../images/hero.webp");
+    background-image: linear-gradient(rgba(244, 230, 212, 0.85), rgba(244, 230, 212, 0.85)), url("../images/gadtc-hero.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
