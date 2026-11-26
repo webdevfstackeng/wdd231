@@ -30,7 +30,7 @@ function displayMembers(members) {
 
     section.innerHTML = `
       <img src="${member.image}" alt="${member.name} logo" width="${member.width || 150}" height="${member.height || 150}" loading="lazy">
-      <h3>${member.name}</h3>
+      <h2>${member.name}</h2>
       <p>${member.address}</p>
       <p><a href="${member.websiteurl}" target="_blank" rel="noopener">Website</a></p>
       <p class="card-attribute">WhatsApp: ${member.whatsapp_number}</p>
