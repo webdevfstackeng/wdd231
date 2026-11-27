@@ -27,9 +27,10 @@ function displayMembers(members) {
 
   members.forEach((member) => {
     const section = document.createElement('section');
+    //const lazyAttr = index >= 3 ? 'loading="lazy"' : '';
 
     section.innerHTML = `
-      <img src="${member.image}" alt="${member.name} logo" width="${member.width || 150}" height="${member.height || 150}" loading="lazy">
+    <img src="${member.image}" alt="${member.name} logo" width="${member.width || 150}" height="${member.height || 150}">
       <h2>${member.name}</h2>
       <p>${member.address}</p>
       <p><a href="${member.websiteurl}" target="_blank" rel="noopener">Website</a></p>
